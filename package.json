@@ -2,6 +2,7 @@
   "name": "mymemo",
   "version": "0.0.1",
   "private": true,
+  "author":"Abhinav Anand",
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",

@@ -14,7 +14,7 @@ function factorial(n) {
 const App = () => {
   const [counter, setCounter] = useState(1);
   const result = useMemo(() => {
-      // do something expensive that depends on counter
+     
       console.log('calculate', counter);
       return factorial(counter);
   }, [counter]);
